@@ -1,0 +1,24 @@
+
+
+.navbar{
+    background-color: rgb(32, 33, 36);
+}
+
+.container-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    color: rgb(244, 245, 247);
+    flex-direction: row;
+    font-weight: bold;
+}
+.nav-item{
+    margin-right: 2rem;
+    
+}
+.navbar-brand{
+    font-weight: bold;
+    color:rgb(244, 245, 247);
+}
