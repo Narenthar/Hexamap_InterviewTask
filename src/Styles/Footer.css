@@ -1,0 +1,134 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .mobile{
+      margin-top: 15px;
+      position: relative;
+  }
+  .mailid{
+    position: relative;
+
+  }
+  
+  .footer-card {
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(36, 37, 38);
+    padding: 1rem 2rem;
+    min-width: 20rem;
+    width: 94%;
+    max-width: 86rem;
+    transition: 1s ease;
+  }
+  
+  .footer-header {
+    margin: 1rem 0 0.5rem 0;
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+  }
+  
+  .footer-row {
+    display: flex;
+    margin: 0.25rem 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-row i {
+    position: static;
+    display: inline-block;
+    font-size: 1.5rem;
+  }
+  
+  .footer-row a,
+  .footer-row p {
+    color: rgb(255, 255, 255);
+    margin-left: 0.5rem;
+  }
+
+  .mailid::before,
+  .mobile::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  .mailid:hover::before,
+  .mobile:hover::before{
+    transform-origin: left;
+  transform: scaleX(1);
+    
+  }
+
+  .footer-icon {
+    position: relative;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    margin: 0rem 0.5rem;
+    padding: 0.4rem 0.5rem;
+  }
+  
+  .footer-icon:hover.footer-icon:after {
+    content: "";
+    border: 0.15rem dotted rgb(255, 255, 255);
+    position: absolute;
+    top: -3px;
+    left: -2px;
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    animation: spin 5s linear, fade 0.1s ease;
+  }
+
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      top: 15px;
+      left: 15px;
+      height: 0;
+      width: 0;
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer-header {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .copyright-text{
+      margin-top: 20px;
+   color: rgb(244, 245, 247);
+   opacity: 50%;
+  }
