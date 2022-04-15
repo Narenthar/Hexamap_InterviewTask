@@ -4,12 +4,12 @@ import "../Styles/Header.css";
 
 export const Header = () => {
   return (
-    <nav class="navbar">
- <div class="logo">Home</div>
+    <nav className="navbar">
+ <div className="logo">Home</div>
  <ul class="nav-links">
  <input type="checkbox" id="checkbox_toggle" />
- <label for="checkbox_toggle" class="hamburger">&#9776;</label>
- <div class="menu">
+ <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
+ <div className="menu">
  <li>Projects</li>
  <li>Skills</li>
  <li>
