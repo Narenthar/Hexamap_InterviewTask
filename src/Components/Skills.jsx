@@ -16,54 +16,47 @@ import "../Styles/Skills.css"
 
 export const Skills = () => {
   return (
-    <div>
-      <div>
-        <p>Skills</p>
+    <div  className="skills-head">
+      <div >
+        <p className="skills-title">Skills</p>
       </div>
       <Container className="skill-card">
         <Row >
-          <Col className="skill-card offset-md-1" xs={5} md={2}>
-            <Image className="logo-pic" src={HTML} alt="HTML Logo" rounded /> <div>HTML 5</div>
+          <Col className="skill-card  offset-md-1" xs={6} md={2}>
+            <Image className="logo-pic" src={HTML} alt="HTML Logo" rounded /> <div className="logo-name">HTML 5</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={CSS} alt="CSS Logo" rounded /> <div>CSS 3</div>
+          <Col className="skill-card " xs={6} md={2}>
+            <Image className="logo-pic" src={CSS} alt="CSS Logo" rounded /> <div className="logo-name">CSS 3</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={JS} alt="JS Logo" rounded /> <div>Javascript</div>
+          <Col className="skill-card " xs={6} md={2}>
+            <Image className="logo-pic" src={JS} alt="JS Logo" rounded /> <div className="logo-name">Javascript</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={Reactapp} alt="React Logo" rounded /> <div>React</div>
+          <Col className="skill-card " xs={6} md={2}>
+            <Image className="logo-pic" src={Reactapp} alt="React Logo" rounded /> <div className="logo-name">React</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={nodelogo} alt="Node Logo" rounded /> <div>Node JS</div>
+          <Col className="skill-card " xs={6} md={2}>
+            <Image className="logo-pic" src={nodelogo} alt="Node Logo" rounded /> <div className="logo-name">Node JS</div>
           </Col>
-          <Col className="skill-card offset-md-1" xs={5} md={2}>
+          <Col className="skill-card  offset-md-1" xs={6} md={2}>
             <Image className="logo-pic" src={mongodb} alt="MongoDB Logo" rounded />{" "}
-            <div>mongo DB</div>
+            <div className="logo-name">mongo DB</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
+          <Col className="skill-card " xs={6} md={2}>
             <Image className="logo-pic" src={expresslogo} alt="Express Logo" rounded />{" "}
-            <div>Express.js</div>
+            <div className="logo-name">Express.js</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={Redux} alt="Redux Logo" rounded /> <div>Redux</div>
+          <Col className="skill-card " xs={6} md={2}>
+            <Image className="logo-pic" src={Redux} alt="Redux Logo" rounded /> <div className="logo-name">Redux</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
+          <Col className="skill-card " xs={6} md={2}>
             <Image className="logo-pic" src={Bootstrap} alt="Bootstrap Logo" rounded />{" "}
-            <div>Bootstrap</div>
+            <div className="logo-name">Bootstrap</div>
           </Col>
-          <Col className="skill-card" xs={5} md={2}>
+          <Col className="skill-card " xs={6} md={2}>
             <Image className="logo-pic" src={materialui} alt="MaterialUI Logo" rounded />{" "}
-            <div>Material UI</div>
+            <div className="logo-name">Material UI</div>
           </Col>
-          {/* <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={mysql} alt="MySQL Logo" rounded />{" "}
-            <div>My SQL</div>
-          </Col>
-          <Col className="skill-card" xs={5} md={2}>
-            <Image className="logo-pic" src={materialui} alt="MaterialUI Logo" rounded />{" "}
-            <div>Material UI</div>
-          </Col> */}
+        
         </Row>
       </Container>
     </div>

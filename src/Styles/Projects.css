@@ -54,6 +54,17 @@
     margin-top: 20px;
 }
 
+.project-link:hover{
+  background-color:rgb(32, 33, 36);
+  color: rgb(255, 255, 255);
+}
+
+.project-image{
+    width: 400px;
+    height: 330px;
+}
+
+
 .project-link {
   border-radius: 10px;
   border: thin solid rgb(32, 33, 36);
@@ -87,6 +98,11 @@
     .project-link {
         display: flex;
       align-self: center;
+    }
+
+    .project-image{
+        width: 300px;
+        height: 250px;
     }
 
 }

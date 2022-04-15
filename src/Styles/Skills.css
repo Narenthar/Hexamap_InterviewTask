@@ -1,7 +1,33 @@
 .logo-pic{
-    width: 60px;
+    width: 60px;   
+    height: 50px;
     
 }
+
+.logo-name{
+    font-family:"Roboto", sans-serif;
+    padding-top: 10px;
+}
+
 .skill-card{
     align-items: center;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
+
+.skills-head{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-title{
+font-family: "Lobster", cursive;
+  font-size: 4rem;
+  color: rgb(32, 33, 36);
+  transition: 0.2s ease;
+  align-self: center;
+}
+
+
