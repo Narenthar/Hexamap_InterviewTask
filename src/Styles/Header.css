@@ -54,12 +54,17 @@ color: black;
     justify-content: space-between;
     background-color: rgb(32, 33, 36);
     color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1;
    }
    .nav-links {
     color: #fff;
     margin : 10px
    }
    .logo {
+       font-family: "Roboto", sans-serif;
     font-size: 25px;
     margin-left: 1em;
    }

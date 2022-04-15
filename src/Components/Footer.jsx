@@ -13,8 +13,10 @@ return (
         <a href="mailto:narenthar31@gmail.com">narenthar31@gmail.com</a>
         </div>
         <div>
-        <i class="fas fa-mobile" />
-        <p>(+91)9962988080</p>
+        <i className="fas fa-mobile" />
+        <a href="tel:+919962988080">
+            <p>  (+91)9962988080</p>
+          </a>
         </div>
     </div>
     <p>Follow me</p>

@@ -1,5 +1,4 @@
 import React from "react";
-// import { Container, Row, Col } from "reactstrap";
 import {Container, Row, Col, Image } from "react-bootstrap";
 import HTML from "../Pics/html5-without-wordmark-color.svg";
 import CSS from "../Pics/css-3-seeklogo.com.svg";
@@ -22,7 +21,7 @@ export const Skills = () => {
         <p>Skills</p>
       </div>
       <Container className="skill-card">
-        <Row className="" >
+        <Row >
           <Col className="skill-card offset-md-1" xs={5} md={2}>
             <Image className="logo-pic" src={HTML} alt="HTML Logo" rounded /> <div>HTML 5</div>
           </Col>
