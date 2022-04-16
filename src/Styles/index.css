@@ -19,8 +19,8 @@
   
   a,
   p,
-  ul,
-  li {
+  ul
+  {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
   }

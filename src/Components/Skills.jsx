@@ -16,7 +16,7 @@ import "../Styles/Skills.css"
 
 export const Skills = () => {
   return (
-    <div  className="skills-head">
+    <div  className="skills-head" id="skills">
       <div >
         <p className="skills-title">Skills</p>
       </div>

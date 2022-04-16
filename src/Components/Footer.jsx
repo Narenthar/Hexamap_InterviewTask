@@ -4,7 +4,7 @@ import "../Styles/Footer.css"
 export const Footer = () => {
 const year = new Date().getFullYear();
 return (
-    <div className="footer-container">
+    <div className="footer-container" id="footer">
     <div className="footer-card">
         <p className="footer-header">Contact me</p>
     

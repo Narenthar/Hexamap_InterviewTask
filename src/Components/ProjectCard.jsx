@@ -5,7 +5,7 @@ import {Container, Row, Col} from "react-bootstrap";
 
 export const ProjectCard = (props) => {
   return (
-    <Container className='project-con'>
+    <Container className='project-con' >
       <Row className=''>
         <Col className='project-col col-md-12 col-xs-12'>
           <div className='project-image-section' ><img className='project-image' src={props.image} alt="project"/></div>
