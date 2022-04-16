@@ -27,7 +27,7 @@ export const Header = () => {
             </Link>
           </li>
           <li>
-            <a className="nav-name" href = "">
+            <a className="nav-name" href = "/">
               <span >Resume</span>
             </a>
           </li>
