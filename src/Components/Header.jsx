@@ -1,43 +1,40 @@
 import React from "react";
 import "../Styles/Header.css";
 import { Link } from "react-scroll";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 export const Header = () => {
   return (
-    <nav className="navbar">
-      <div className="logo">
+
+<Navbar collapseOnSelect  bg="dark" expand="lg" variant="dark" className="navbar">
+  <Container>
+    <Navbar.Brand><div className="logo">
         <Link to="about" smooth={true} offset={-70} duration={500}>
           <i className="fa fa-home"></i>
         </Link>
-      </div>
-      <ul className="nav-links">
-        <input type="checkbox" id="checkbox_toggle" />
-        <label htmlFor="checkbox_toggle" className="hamburger">
-          &#9776;
-        </label>
-        <div className="menu">
-          <li>
-            <Link to="projects" smooth={true} offset={-70} duration={500}>
-              <span className="nav-name">Projects</span>
+      </div> </Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse  >
+      <Nav className="ms-auto">
+      <Link to="projects" smooth={true} offset={-70} duration={500}>
+              <Nav.Link eventKey="1" ><span className="nav-name">Projects</span></Nav.Link>
             </Link>
-          </li>
-          <li>
-            <Link to="skills" smooth={true} offset={-70} duration={500}>
-              <span className="nav-name">Skills</span>
+        <Link to="skills" smooth={true} offset={-70} duration={500}>
+              <Nav.Link eventKey="2" ><span className="nav-name">Skills</span></Nav.Link>
             </Link>
-          </li>
-          <li>
-            <a className="nav-name" href = "/">
-              <span >Resume</span>
+            <a href = "/">
+              <Nav.Link eventKey="3" ><span className="nav-name">Resume</span></Nav.Link>
             </a>
-          </li>
-          <li>
             <Link to="footer" smooth={true} offset={80} duration={500}>
-              <span className="nav-name">Contact</span>
+              <Nav.Link  eventKey="4" ><span className="nav-name">Contact</span></Nav.Link>
             </Link>
-          </li>
-        </div>
-      </ul>
-    </nav>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+
+
+
+
   );
 };
