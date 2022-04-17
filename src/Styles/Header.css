@@ -1,49 +1,4 @@
-/* 
 
-.navbar{
-    background-color: rgb(32, 33, 36);
-}
-
-.container-bar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.menu{
-    color: rgb(244, 245, 247);
-    display : flex;
-    gap: 1rem;;
-    font-weight: bold;
-}
-.nav-item{
-    margin-right: 2rem;
-    padding: 10px;
-    
-}
-
-.nav-item:hover{
-background-color:rgb(244, 245, 247);
-color: black;
- border-radius: 5px;
- transition: 0.3s ease;
-}
-
-.navbar-brand{
-    font-weight: bold;
-    color:rgb(244, 245, 247);
-} */
-
-
-/* 123 */
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   } */
 .nav-name{
     list-style: none;
 }
@@ -89,6 +44,9 @@ cursor: pointer;
     margin-left: 1em;
  color: rgb(244, 245, 247)
    }
+   .logo i{
+       padding: 5px 10px;
+   }
    .logo:hover{
     background-color: rgb(244, 245, 247);
     color:rgb(32, 33, 36);
@@ -96,57 +54,4 @@ cursor: pointer;
     transition: 0.3s ease;
     cursor: pointer;
    }
-   /* .menu {
-    display: flex;
-    gap: 1em;
-    font-size: 18px;
-    font-family: "Lobster", cursive;
-   }
-   .menu li:hover {
-    background-color: rgb(244, 245, 247);
-    color:rgb(32, 33, 36);
-    border-radius: 5px;
-    transition: 0.3s ease;
-    cursor: pointer;
-   }
-   .menu li {
-    padding: 5px 14px 5px;
-   }
-    */
-   /* input[type=checkbox]{
-    display: none;
-   } 
-   .hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: none;
-   }
-   @media (max-width: 768px) {
-   .menu { 
-    display:none;
-    position: absolute;
-    background-color:rgb(32, 33, 36);
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-   }
-   .menu li:hover {
-    display: inline-block;
-    background-color:rgb(244, 245, 247);
-    color:rgb(32, 33, 36);
-    transition: 0.3s ease;
-    cursor: pointer;
-   }
-     .menu li + li {
-    margin-top: 12px;
-   }
-     input[type=checkbox]:checked ~ .menu{
-    display: block;
-   }
-   .hamburger {
-    display: block;
-    cursor: pointer;
-   }
-
-   } */
+  
