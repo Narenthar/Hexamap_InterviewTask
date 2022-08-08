@@ -1,0 +1,119 @@
+import React from "react";
+import HTML from "../Pics/html5-without-wordmark-color.svg";
+import CSS from "../Pics/css-3-seeklogo.com.svg";
+import JS from "../Pics/javascript-js-seeklogo.com.svg";
+import Bootstrap from "../Pics/bootstrap-seeklogo.com.svg";
+import Reactapp from "../Pics/react-seeklogo.com.svg";
+import Redux from "../Pics/redux.svg";
+import nodelogo from "../Pics/node-node-js-seeklogo.com.svg";
+import expresslogo from "../Pics/express.png";
+import materialui from "../Pics/material-ui-1.svg";
+import mongodb from "../Pics/mongodb-icon-1.svg";
+import "../Styles/Courosel.css";
+import { Image } from "react-bootstrap";
+
+export const Courosel = () => {
+  return (
+    <div>
+      <div className="courosel-parent position-relative" id="skills">
+        <h1 className="position-absolute top-0 start-0 end-0 text-center mt-5">
+          Technologies I use
+        </h1>
+
+        <div className="gallery">
+          <span style={{ "--i": 1 }}>
+            <Image
+              className="logo-pic"
+              src={Reactapp}
+              alt="React Logo"
+              rounded
+            />
+          </span>
+
+          <span style={{ "--i": 2 }}>
+            <Image className="logo-pic" src={expresslogo} alt="Express Logo" />
+          </span>
+
+          <span style={{ "--i": 3 }}>
+            <Image className="logo-pic" src={Redux} alt="Redux Logo" rounded />
+          </span>
+
+          <span style={{ "--i": 4 }}>
+            <Image className="logo-pic" src={nodelogo} alt="Node Logo" />
+          </span>
+
+          <span style={{ "--i": 5 }}>
+            <Image className="logo-pic" src={JS} alt="JS Logo" rounded />
+          </span>
+
+          <span style={{ "--i": 6 }}>
+            <Image
+              className="logo-pic"
+              src={Bootstrap}
+              alt="Bootstrap Logo"
+              rounded
+            />
+          </span>
+
+          <span style={{ "--i": 7 }}>
+            <Image className="logo-pic" src={HTML} alt="HTML Logo" rounded />
+          </span>
+
+          <span style={{ "--i": 8 }}>
+            <Image className="logo-pic" src={CSS} alt="CSS Logo" rounded />
+          </span>
+          <span style={{ "--i": 9 }}>
+            <Image className="logo-pic" src={mongodb} alt="MongoDB Logo" />
+          </span>
+          <span style={{ "--i": 10 }}>
+            <Image
+              className="logo-pic"
+              src={materialui}
+              alt="MaterialUI Logo"
+              rounded
+            />
+          </span>
+        </div>
+      </div>
+      <div className="devstack container my-5 n-box2 py-5">
+        <div className="text-center">
+          <h3 className="font-bold text-center">My Developement Stack</h3>
+
+          <hr />
+        </div>
+
+        <div className="row">
+          <div className="col-md-4 column">
+            <div className="font-bold">
+              <h3 className="font-bold">Front End</h3>
+              <hr />
+              <p>HTML/CSS</p>
+              <p>Javascript</p>
+              <p>React</p>
+              <p>Redux</p>
+            </div>
+          </div>
+
+          <div className="col-md-4 column">
+            <div className="font-bold text-center">
+              <h3 className="font-bold">UI/Styling</h3>
+              <hr />
+              <p>Material UI</p>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+
+          <div className="col-md-4 column">
+            <div className="font-bold text-end">
+              <h3 className="font-bold">Backend/DB</h3>
+              <hr />
+              <p>Node JS</p>
+              <p>Express</p>
+              <p>Mongo DB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

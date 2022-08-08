@@ -2,13 +2,23 @@
   display: flex;
   height: 100vh;
 }
+.about-card:hover {
+  cursor: default;
+  transform: scale(1.05);
+}
 
 .myname {
   font-family: "Lobster", cursive;
-  color: rgb(32, 33, 36);
+  color: rgba(255, 255, 255, 0.766);
   font-size: 4rem;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.myname:hover {
+  color: white;
+  cursor: default;
+  text-shadow: 0px 0px 10px #fff;
 }
 
 .about-section {
@@ -22,7 +32,7 @@
 .about-card {
   border-radius: 10px;
   height: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(32, 33, 36);
   box-shadow: 0px 0px 5px 0px rgb(223, 223, 223);
   padding: 10px 20px 0px 20px;
   margin-right: 20px;
@@ -31,12 +41,11 @@
   transition: 0.1s ease;
 }
 
-.about-text{
-    color: rgb(32, 33, 36);
+.about-text {
+  color: #fff;
 }
 
-
-.profilepic{
+.profilepic {
   border-radius: 50%;
   width: 220px;
   height: 250px;
@@ -44,13 +53,18 @@
   margin-left: 30px;
 }
 
+.profilepic:hover {
+  cursor: default;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgb(59, 59, 59);
+}
+
 @media only screen and (max-width: 768px) {
   .about-section {
     flex-direction: column-reverse;
   }
 
-
-.about-card{
+  .about-card {
     padding: 0.5rem 1.5rem 0rem 1.5rem;
     margin-right: 0;
     margin-top: 1.5rem;
@@ -58,19 +72,18 @@
     width: 100%;
     min-width: 20rem;
     transition: 0.1s ease;
-}
+  }
 
-.myname{
+  .myname {
     font-size: 2rem;
-}
+  }
 
-.about-text{
+  .about-text {
     font-size: 0.9rem;
-}
+  }
 
-.profilepic{
+  .profilepic {
     min-width: 150px;
     margin-top: 50px;
-}
-
+  }
 }
