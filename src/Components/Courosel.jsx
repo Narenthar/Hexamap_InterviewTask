@@ -78,7 +78,6 @@ export const Courosel = () => {
       <div className="devstack container my-5 n-box2 py-5">
         <div className="text-center">
           <h3 className="font-bold text-center">My Developement Stack</h3>
-
           <hr />
         </div>
 
