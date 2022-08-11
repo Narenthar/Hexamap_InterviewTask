@@ -14,10 +14,11 @@ const project = [
     repo: "https://github.com/Narenthar/notes-app-frontend",
   },
   {
-    title: "Project 3",
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-    image: require("./Pics/dummy.png"),
-    link: "aaa",
+    title: "Food Order App",
+    description: `Food Order Application - A Full Stack Project developed using React, NodeJs, MongoDB and Express. In this application a user can regoster and login to the chinese food website and order their favorite chineese noodles. It also has admin access whereyou can login as admin and edit food detais and check user details and manage the website. Payment methods are coded using Stripe `,
+    image: require("./Pics/foodApp.PNG"),
+    link: "https://food-app-narenthar.netlify.app/",
+    repo: "https://github.com/Narenthar/food_order_frontend",
   },
 ];
 
