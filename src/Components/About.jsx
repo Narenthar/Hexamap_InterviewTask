@@ -7,8 +7,29 @@ export const About = () => {
     <div className="about-container" id="about">
       <div className="about-section">
         <div className="about-card">
-          <p className="myname">
-            Narenthar Chidambaram <i class="cib-mongodb"></i>
+          <p className="myname words word-1">
+            <span>N</span>
+            <span>a</span>
+            <span>r</span>
+            <span>e</span>
+            <span>n</span>
+            <span>t</span>
+            <span>h</span>
+            <span>a</span>
+            <span>r</span>
+          </p>
+          <p className="myname words word-2">
+            <span>C</span>
+            <span>h</span>
+            <span>i</span>
+            <span>d</span>
+            <span>a</span>
+            <span>m</span>
+            <span>b</span>
+            <span>a</span>
+            <span>r</span>
+            <span>a</span>
+            <span>m</span>\
           </p>
           <p className="about-text">
             A Full-Stack JavaScript Web Developer with a passion for building
@@ -18,10 +39,11 @@ export const About = () => {
             🎬
           </p>
         </div>
-        <div className="pic">
+
+        <div className="pic ">
           <figure>
             <img
-              className="profilepic"
+              className="profilepic  "
               src={profile}
               alt="Profile Pic"
               width="150px"

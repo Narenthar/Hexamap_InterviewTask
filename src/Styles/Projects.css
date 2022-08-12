@@ -64,16 +64,10 @@
 }
 
 .project-link:hover {
-  background-color: rgb(32, 33, 36);
+  background-color: rgb(97, 96, 96);
   color: rgb(255, 255, 255);
+  cursor: pointer;
 }
-
-.project-image {
-  width: 400px;
-  height: 330px;
-  border-radius: 10px;
-}
-
 .project-link {
   border-radius: 10px;
   border: thin solid rgb(32, 33, 36);
@@ -87,6 +81,31 @@
   text-decoration: none;
   bottom: 0;
   transition: 0.2s ease;
+}
+.visit-project {
+  border-radius: 10px;
+  border: thin solid rgb(32, 33, 36);
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  background-color: rgb(32, 33, 36);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  bottom: 0;
+  transition: 0.2s ease;
+}
+
+.visit-project:hover {
+  background-color: rgb(97, 96, 96);
+  color: rgb(255, 255, 255);
+}
+
+.project-image {
+  width: 400px;
+  height: 330px;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 768px) {

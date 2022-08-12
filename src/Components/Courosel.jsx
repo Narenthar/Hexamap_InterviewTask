@@ -16,9 +16,11 @@ export const Courosel = () => {
   return (
     <div>
       <div className="courosel-parent position-relative" id="skills">
-        <h1 className="position-absolute top-0 start-0 end-0 text-center mt-5">
-          Technologies I use
-        </h1>
+        <div className="title">
+          <h1 className="position-absolute top-0 start-0 end-0  text-center mt-5 ">
+            Technologies I use
+          </h1>
+        </div>
 
         <div className="gallery">
           <span style={{ "--i": 1 }}>

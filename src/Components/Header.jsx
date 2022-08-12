@@ -35,7 +35,17 @@ export const Header = () => {
             </Link>
             <a href="/">
               <Nav.Link eventKey="3">
-                <span className="nav-name">Resume</span>
+                <span
+                  className="nav-name"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1hAa0hAV9nRiQq7OILAdV_IXSHv-A4ecl/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                >
+                  Resume
+                </span>
               </Nav.Link>
             </a>
             <Link to="footer" smooth={true} offset={80} duration={500}>

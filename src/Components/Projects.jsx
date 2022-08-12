@@ -16,7 +16,8 @@ export const Projects = () => {
               description={info.description}
               image={info.image}
               link={info.link}
-              repo={info.repo}
+              client={info.client}
+              server={info.server}
             />
           );
         })}

@@ -16,19 +16,27 @@ export const ProjectCard = (props) => {
             <div className="project-btn">
               <a
                 className="project-link"
+                href={props.client}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Client Repo
+              </a>
+              <a
+                className="visit-project"
                 href={props.link}
                 target="_blank"
                 rel="noreferrer"
               >
-                Site
+                Visit Site
               </a>
               <a
                 className="project-link"
-                href={props.repo}
+                href={props.server}
                 target="_blank"
                 rel="noreferrer"
               >
-                Repo
+                Server Repo
               </a>
             </div>
           </div>
