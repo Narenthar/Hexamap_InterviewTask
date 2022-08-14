@@ -95,7 +95,7 @@
 }
 
 .words span {
-  font-size: 3.2rem;
+  font-size: 3.25rem;
   display: inline-block;
   animation: move 3s ease-in-out infinite;
 }
