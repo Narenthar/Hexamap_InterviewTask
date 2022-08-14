@@ -39,7 +39,7 @@ export const Header = () => {
                   className="nav-name"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1hAa0hAV9nRiQq7OILAdV_IXSHv-A4ecl/view?usp=sharing",
+                      "https://drive.google.com/file/d/1VwoYuRUpC7hVa6H3NJ6LXFGThGahmRA_/view",
                       "_blank"
                     )
                   }
