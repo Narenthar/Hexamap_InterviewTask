@@ -7,7 +7,8 @@ export const Projects = () => {
   return (
     <div className="project-container" id="projects">
       <div className="project-head">Projects</div>
-      <div>
+      <div className="credentials">
+        <h5>Demo Credentials</h5>
         <p>
           Username : batman@batman.com <span>| Password: password</span>
         </p>
