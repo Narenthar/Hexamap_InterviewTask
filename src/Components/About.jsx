@@ -38,6 +38,32 @@ export const About = () => {
             When I'm not coding, I like to play video games and watch movies 🎮
             🎬
           </p>
+          <div className="footer-row">
+            <a
+              href="https://www.linkedin.com/in/narenthar-chidambaram-22442b112/"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-icon"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/Narenthar"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-icon"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1VwoYuRUpC7hVa6H3NJ6LXFGThGahmRA_/view"
+              target="_blank"
+              rel="noreferrer"
+              className="footer-icon"
+            >
+              <i class="fa fa-file-text-o"></i>
+            </a>
+          </div>
         </div>
 
         <div className="pic ">

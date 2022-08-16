@@ -7,6 +7,12 @@ export const Projects = () => {
   return (
     <div className="project-container" id="projects">
       <div className="project-head">Projects</div>
+      <div>
+        <p>
+          Username : batman@batman.com <span>| Password: password</span>
+        </p>
+      </div>
+
       <div className="project-section">
         {project.map((info, index) => {
           return (

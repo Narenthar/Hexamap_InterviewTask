@@ -141,3 +141,23 @@
 .words span:nth-child(7) {
   animation-delay: 3s;
 }
+
+.footer-row {
+  display: flex;
+  margin: 0.25rem 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-row i {
+  position: static;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.footer-row a,
+.footer-row p {
+  color: rgb(255, 255, 255);
+  margin-left: 0.5rem;
+}
