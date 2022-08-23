@@ -56,7 +56,7 @@ export const About = () => {
               <i className="fab fa-github"></i>
             </a>
             <a
-              href="https://drive.google.com/file/d/1VwoYuRUpC7hVa6H3NJ6LXFGThGahmRA_/view"
+              href="https://drive.google.com/file/d/1O_HCtY7AC5sUh4AhXaWeAcp5Xk-bPEf8/view"
               target="_blank"
               rel="noreferrer"
               className="footer-icon"
