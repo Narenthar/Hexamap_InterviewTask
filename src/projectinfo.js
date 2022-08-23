@@ -23,6 +23,14 @@ const project = [
     client: "https://github.com/Narenthar/food_order_frontend",
     server: "https://github.com/Narenthar/food_order_backend",
   },
+  {
+    title: "Blog App",
+    description: `Blog Application - A Full Stack Project developed using React, NodeJs, MongoDB and Express. In this application a user can register and login to the blog website and enter their blog. The blogs can be of various categories and it is visible to all the users that are registered in the application. It is a great platform to showcase your content writing skills. `,
+    image: require("./Pics/blogApp.PNG"),
+    link: "https://blog-narenthar.netlify.app//",
+    client: "https://github.com/Narenthar/blog-frontend",
+    server: "https://github.com/Narenthar/blogapp-backend",
+  },
 ];
 
 export default project;
