@@ -1,27 +1,25 @@
 * {
-    padding: 0;
-    margin: 0;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: rgb(244, 245, 247);
-    transition: 0.2s ease;
-  }
-  
-  body::-webkit-scrollbar {
-    height: 0;
-    width: 0;
-  }
-  
-  a,
-  p,
-  ul
-  {
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-  }
-  
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: text;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(244, 245, 247);
+  transition: 0.2s ease;
+}
+
+body::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+
+a,
+p,
+ul {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}

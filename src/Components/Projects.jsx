@@ -10,7 +10,10 @@ export const Projects = () => {
       <div className="credentials">
         <h5>Demo Credentials</h5>
         <p>
-          Username : batman@batman.com <span>| Password: password</span>
+          Demo user : batman@batman.com <span>| Password: password</span>
+        </p>
+        <p>
+          Admin : narenthar31@gmail.com <span>| Password: password</span>
         </p>
       </div>
 
