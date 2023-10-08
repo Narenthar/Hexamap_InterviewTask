@@ -4,11 +4,11 @@ import CSS from "../Pics/css-3-seeklogo.com.svg";
 import JS from "../Pics/javascript-js-seeklogo.com.svg";
 import Bootstrap from "../Pics/bootstrap-seeklogo.com.svg";
 import Reactapp from "../Pics/react-seeklogo.com.svg";
-import Redux from "../Pics/redux.svg";
+// import Redux from "../Pics/redux.svg";
 import nodelogo from "../Pics/node-node-js-seeklogo.com.svg";
-import expresslogo from "../Pics/express.png";
+// import expresslogo from "../Pics/express.png";
 import materialui from "../Pics/material-ui-1.svg";
-import mongodb from "../Pics/mongodb-icon-1.svg";
+// import mongodb from "../Pics/mongodb-icon-1.svg";
 import "../Styles/Courosel.css";
 import { Image } from "react-bootstrap";
 
