@@ -33,11 +33,11 @@ export const Courosel = () => {
           </span>
 
           <span style={{ "--i": 2 }}>
-            <Image className="logo-pic" src={expresslogo} alt="Express Logo" />
+            <Image className="logo-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTV_PPYDxzJioTwdrMEyofWO6zHlxsxpaUDMoronSlsHrrs2-r8b_Ar3VlleA1szYXasI&usqp=CAU" alt="Express Logo" />
           </span>
 
           <span style={{ "--i": 3 }}>
-            <Image className="logo-pic" src={Redux} alt="Redux Logo" rounded />
+            <Image className="logo-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43SLIumoq2cJO1B4r28AVD4T3gI-kQcvgL-IP7FP9aETpyRoTxy3tq46ENq_Xovx3T9Q&usqp=CAU" alt="Redux Logo" rounded />
           </span>
 
           <span style={{ "--i": 4 }}>
@@ -65,7 +65,7 @@ export const Courosel = () => {
             <Image className="logo-pic" src={CSS} alt="CSS Logo" rounded />
           </span>
           <span style={{ "--i": 9 }}>
-            <Image className="logo-pic" src={mongodb} alt="MongoDB Logo" />
+            <Image className="logo-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoZruCKRSXh4t7a-doTw-eZscGJSv1b1e6y5sQ2vRWDvFglAh6eyRasxVVjm0u2EoBhs&usqp=CAU" alt="MongoDB Logo" />
           </span>
           <span style={{ "--i": 10 }}>
             <Image
