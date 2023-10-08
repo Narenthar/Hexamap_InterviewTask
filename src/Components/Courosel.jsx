@@ -4,11 +4,11 @@ import CSS from "../Pics/css-3-seeklogo.com.svg";
 import JS from "../Pics/javascript-js-seeklogo.com.svg";
 import Bootstrap from "../Pics/bootstrap-seeklogo.com.svg";
 import Reactapp from "../Pics/react-seeklogo.com.svg";
-// import Redux from "../Pics/redux.svg";
+import Typescript from "../Pics/typescript.svg";
 import nodelogo from "../Pics/node-node-js-seeklogo.com.svg";
-// import expresslogo from "../Pics/express.png";
+import nextjs from "../Pics/nextjs.svg";
 import materialui from "../Pics/material-ui-1.svg";
-// import mongodb from "../Pics/mongodb-icon-1.svg";
+import sass from "../Pics/sass.png";
 import "../Styles/Courosel.css";
 import { Image } from "react-bootstrap";
 
@@ -33,11 +33,11 @@ export const Courosel = () => {
           </span>
 
           <span style={{ "--i": 2 }}>
-            <Image className="logo-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTV_PPYDxzJioTwdrMEyofWO6zHlxsxpaUDMoronSlsHrrs2-r8b_Ar3VlleA1szYXasI&usqp=CAU" alt="Express Logo" />
+            <Image className="logo-pic" src={Typescript} alt="Express Logo" />
           </span>
 
           <span style={{ "--i": 3 }}>
-            <Image className="logo-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ43SLIumoq2cJO1B4r28AVD4T3gI-kQcvgL-IP7FP9aETpyRoTxy3tq46ENq_Xovx3T9Q&usqp=CAU" alt="Redux Logo" rounded />
+            <Image className="logo-pic" src={nextjs} alt="Redux Logo" rounded />
           </span>
 
           <span style={{ "--i": 4 }}>
@@ -65,7 +65,7 @@ export const Courosel = () => {
             <Image className="logo-pic" src={CSS} alt="CSS Logo" rounded />
           </span>
           <span style={{ "--i": 9 }}>
-            <Image className="logo-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoZruCKRSXh4t7a-doTw-eZscGJSv1b1e6y5sQ2vRWDvFglAh6eyRasxVVjm0u2EoBhs&usqp=CAU" alt="MongoDB Logo" />
+            <Image className="logo-pic" src={sass} alt="MongoDB Logo" />
           </span>
           <span style={{ "--i": 10 }}>
             <Image
