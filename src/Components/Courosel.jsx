@@ -84,27 +84,29 @@ export const Courosel = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-4 column">
+          <div className="col-md-6 column">
             <div className="font-bold">
               <h3 className="font-bold">Front End</h3>
               <hr />
               <p>HTML/CSS</p>
               <p>Javascript</p>
+              <pTypescript</p>
               <p>React</p>
-              <p>Redux</p>
+              <p>Next.js</p>
             </div>
           </div>
 
-          <div className="col-md-4 column">
+          <div className="col-md-6 column">
             <div className="font-bold text-center">
               <h3 className="font-bold">UI/Styling</h3>
               <hr />
               <p>Material UI</p>
               <p>Bootstrap</p>
+              <p>Sass</p>
             </div>
           </div>
 
-          <div className="col-md-4 column">
+{/*           <div className="col-md-4 column">
             <div className="font-bold text-end">
               <h3 className="font-bold">Backend/DB</h3>
               <hr />
@@ -112,7 +114,7 @@ export const Courosel = () => {
               <p>Express</p>
               <p>Mongo DB</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
