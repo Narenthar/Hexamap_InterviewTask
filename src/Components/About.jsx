@@ -32,7 +32,7 @@ export const About = () => {
             <span>m</span>\
           </p>
           <p className="about-text">
-            A Full-Stack JavaScript Web Developer with a passion for building
+            A Web Developer with a passion for building
             websites.
             <br />
             When I'm not coding, I like to play video games and watch movies 🎮
