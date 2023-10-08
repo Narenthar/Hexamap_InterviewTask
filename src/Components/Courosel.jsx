@@ -90,7 +90,7 @@ export const Courosel = () => {
               <hr />
               <p>HTML/CSS</p>
               <p>Javascript</p>
-              <pTypescript</p>
+              <p>Typescript</p>
               <p>React</p>
               <p>Next.js</p>
             </div>
